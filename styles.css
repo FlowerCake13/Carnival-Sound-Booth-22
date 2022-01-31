@@ -1,0 +1,36 @@
+body {
+	 margin: 0;
+	 font-family: 'Otomanopee One', sans-serif;
+}
+
+#container {
+	width: calc(100vw);
+	height: calc(100vh);
+}
+
+h1 {
+	padding: 15px;
+	margin: 0;
+	padding-bottom: 0px;
+}
+
+#form {
+	padding: 15px;
+}
+
+#message, #requested {
+	font-family: 'Roboto', sans-serif;
+}
+
+#myForm {
+	display: flex;
+	flex-direction: column;
+}
+
+#message {
+	height: 100px;
+}
+
+#requested{
+	width: 100px;
+}
