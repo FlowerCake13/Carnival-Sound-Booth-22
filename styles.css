@@ -1,6 +1,8 @@
 body {
-	 margin: 0;
-	 font-family: 'Otomanopee One', sans-serif;
+	margin: 0;
+	font-family: 'Otomanopee One', sans-serif;
+	background-color: #cae4ed;
+	position: relative;
 }
 
 #container {
@@ -17,19 +19,26 @@ h1 {
 	padding: 15px;
 }
 
-#message, #requested {
-	font-family: 'Roboto', sans-serif;
-}
-
 #myForm {
 	display: flex;
 	flex-direction: column;
+	padding-bottom: 10px;
 }
 
-#message {
-	height: 100px;
+#message, #requested {
+	font-family: 'Roboto', sans-serif;
 }
 
 #requested{
 	width: 100px;
 }
+
+button {
+	width: 105px;
+	height: 50px;
+}
+
+/*
+- fix message alignment
+- requested time (carnival booths only)
+*/
