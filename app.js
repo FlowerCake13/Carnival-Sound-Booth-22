@@ -8,7 +8,7 @@ function subForm(){
 	var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 	// console.log(date + " " + time);
 	
-	fetch("https://api.apispreadsheets.com/data/QLY1YlefFb5Q8MpX/", {
+	fetch("https://api.apispreadsheets.com/data/[apiKey]/", {
 		method: "POST",
 		body: JSON.stringify({"data": {"time":date + " " + time,"message":messageInput.value,"requested":requestedTime.value}}),
 	}).then(res =>{
